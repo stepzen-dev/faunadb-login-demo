@@ -37,20 +37,20 @@ export default function App() {
 				<SafeAreaProvider>
 					<NavigationContainer>
 						<Stack.Navigator initialRouteName="Login">
-							<Stack.Screen 
-								name=" " 
+							<Stack.Screen
+								name=" "
 								component={LoginScreen}
 								options={{
 									headerTransparent: true,
-									headerTitle: "Login/Logout",
+									headerTitle: "Login Demo",
 									headerBackground: () => (
 										<BlurView tint="light" intensity={100} />
 										),
 								}}
 							/>
-							<Stack.Screen 
-								name="Home" 
-								component={UserScreen} 
+							<Stack.Screen
+								name="Home"
+								component={UserScreen}
 								options={{
 									title: "Golf-Austin",
 									headerTransparent: true,
