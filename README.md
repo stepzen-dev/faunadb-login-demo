@@ -1,18 +1,3 @@
----
-title: 'Build a Mobile Login with React Native, Google Sign-In & FaunaDB'
-authors:
-    - samuel-hill
-date: '2021-08-11T12:00:00.000Z'
-headerLg: https://res.cloudinary.com/stepzen/image/upload/v1624999577/covers/cover13_ti1nqr.jpg
-headerSm: https://res.cloudinary.com/stepzen/image/upload/v1624999577/covers/cover13_ti1nqr.jpg
-imageUrl: https://stepzen.com/images/blog/share-cards/React-Native-Fauna.jpg
-categories:
-    - GraphQL
-summary: >
-    Create a Login UI/UX experience with the Google Sign-In API on a React Native mobile app. Once a user successfully logs in, we are writing a mutation in StepZen to pass the login credentials to FaunaDB.
-draft: true
----
-
 Connecting all the sources that we need to get data for our frontend can sometimes be more complex than building the frontend. Your application may use third-party services for things like authentication, APIs like a headless CMS for content, while storing data in a data API service like Fauna. GraphQL combined with StepZen makes it easy to bring all the pieces together into a single, consolidated API endpoint.
 
 In this post, I'll demonstrate how to build a login screen for a mobile app built using Reaact Native with Google Sign-In, FaunaDB, and StepZen. If you'd like to see a live-code demo video looking at the project covered in this blog posts, [check it out on YouTube](https://www.youtube.com/watch?v=8nzJdgrZ7FQ). You can also see the code and clone the [repository on GitHub](https://github.com/stepzen-samples/faunadb-login-demo).
